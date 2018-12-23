@@ -1,10 +1,10 @@
 module.exports = {
-  dest: 'Echart技术文档',
+  dest: 'BC_Blog',
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: 'Echart技术文档',
-      description: 'Vue 驱动的静态站点生成工具'
+      title: 'BC_Blog',
+      description: 'BlueChen 的blog'
     }
   },
   head: [
@@ -32,7 +32,7 @@ module.exports = {
         lastUpdated: '上次更新',
         nav: [
           {
-            text: '指南',
+            text: 'Blog',
             link: '/guide/',
           },
           {
@@ -49,7 +49,7 @@ module.exports = {
           }
         ],
         sidebar: {
-          '/guide/': genSidebarConfig('指南')
+          '/guide/': genSidebarConfig('Blog')
         }
       }
     }
