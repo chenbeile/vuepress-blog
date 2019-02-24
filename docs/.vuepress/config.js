@@ -63,8 +63,7 @@ function genSidebarConfig (title) {
       collapsable: false,
       children: [
         '',
-        'getting-started',
-        'basic-config',
+        'jsBasics',
         'assets',
         'markdown',
         'using-vue',
