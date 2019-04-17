@@ -64,6 +64,7 @@ function genSidebarConfig (title) {
       children: [
         '',
         'jsBasics',
+        'es6',
         'assets',
         'markdown',
         'using-vue',
