@@ -1,9 +1,9 @@
 module.exports = {
-  dest: 'BC_Blog',
+  // dest: 'BC_Blog',
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: 'BC_Blog',
+      // title: 'BC_Blog',
       description: 'BlueChen 的blog'
     }
   },
@@ -21,7 +21,7 @@ module.exports = {
   serviceWorker: true,
   theme: 'vue',
   themeConfig: {
-    repo: 'docschina/vuepress',
+    repo: 'chenbeile',
     editLinks: true,
     docsDir: 'docs',
     locales: {
