@@ -40,8 +40,8 @@ module.exports = {
             link: '/config/'
           },
           {
-            text: 'Echarts',
-            link: '/echarts/'
+            text: 'VUE基础',
+            link: '/vue/'
           },
           {
             text: '默认主题配置',
