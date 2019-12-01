@@ -25,9 +25,8 @@ module.exports = {
     repo: 'chenbeile',
     editLinks: true,
     docsDir: 'docs',
-    base: '/vuepress-blog/',
     locales: {
-      '/': {
+      '/vuepress-blog/': {
         label: '简体中文',
         selectText: '选择语言',
         editLinkText: '编辑此页',
