@@ -1,7 +1,8 @@
 module.exports = {
   // dest: 'BC_Blog',
+  base: '/vuepress-blog/',
   locales: {
-    '/': {
+    '/vuepress-blog/': {
       lang: 'zh-CN',
       // title: 'BC_Blog',
       description: 'BlueChen 的blog'
@@ -25,7 +26,7 @@ module.exports = {
     editLinks: true,
     docsDir: 'docs',
     locales: {
-      '/': {
+      '/vuepress-blog/': {
         label: '简体中文',
         selectText: '选择语言',
         editLinkText: '编辑此页',
