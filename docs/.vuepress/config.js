@@ -1,5 +1,5 @@
 module.exports = {
-  dest: '.vuepress/dist',
+  // dest: '.vuepress/dist',
   base: '/vuepress-blog/',
   locales: {
     '/': {
@@ -22,7 +22,7 @@ module.exports = {
   serviceWorker: true,
   theme: 'vue',
   themeConfig: {
-    repo: 'chenbeile',
+    repo: 'vuepress-blog',
     editLinks: true,
     docsDir: 'docs',
     locales: {
