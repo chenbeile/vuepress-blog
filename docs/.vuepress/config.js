@@ -33,7 +33,7 @@ module.exports = {
         lastUpdated: '上次更新',
         nav: [
           {
-            text: 'Blog',
+            text: '读书笔记',
             link: '/guide/',
           },
           {
@@ -43,14 +43,10 @@ module.exports = {
           {
             text: 'VUE基础',
             link: '/vue/'
-          },
-          {
-            text: '默认主题配置',
-            link: '/default-theme-config/'
           }
         ],
         sidebar: {
-          '/guide/': genSidebarConfig('Blog')
+          '/guide/': genSidebarConfig('读书笔记')
         }
       }
     }
@@ -65,13 +61,7 @@ function genSidebarConfig (title) {
       children: [
         '',
         'jsBasics',
-        'es6',
-        'assets',
-        'markdown',
-        'using-vue',
-        'custom-themes',
-        'i18n',
-        'deploy'
+        'es6'
       ]
     }
   ]

@@ -1,35 +1,40 @@
 # js基础
 
-## 什么是操作符：
+## 1.JavaScript规定了几种语言类型、几种内置对象
 
-系统预设好的一种操作，丢进数据就能得到我们想要的结果
+### String Number Boolean Null Undefined Symbol Object
 
-## NaN:
+### String Number Boolean Object Function Array Date RegExp Error
 
-1. 在ECMAScript中，任何数值除以非数值会返回NaN，因此不会影响其他代码的执行
-2. 任何涉及NaN的操作都会返回NaN
-3. NaN与任何值都不相等，包括NaN本身
-4. isNaN（）在接收到一个值之后，会尝试将这个值转换为数值。某些不是数值的值会直接转换为数值，而任何不能被转换为数值的值都会导致这个函数返回true
-## 非数值转换为数值：
+## 2.JavaScript对象的底层数据结构是什么
 
-Number（）、parseInt()、parseFloat（）
+https://www.rrfed.com/2017/04/04/chrome-object/
 
-## 暂时未分类的知识：
+## 3.Symbol类型在实际开发中的应用、可手动实现一个简单的Symbol
 
-typeof-简单的值类型区分、引用类型的值不好区分
+### 每个 Symbol 值都是唯一的，因此该值不与其它任何值相等
 
-undefind值是派生自null值的
+### 可以充当唯一的对象键
 
-alert（null ===undefined） //true
+## 4.JavaSript中的变量在内存中的具体存储形式
 
-var messageAsBoolean = Boolean(message); //变量命名可读性
+### 变量分为基本类型和引用类型
 
-浮点数值计算会产生舍入误差
+### 基本类型和引用类型都会用到栈内存，引用类型会用到堆内存，引用类型在栈内存存储指向堆内存的指针
 
+## 5.基本类型对应的内置对象，以及他们之间的装箱拆箱操作
 
+### 装箱和拆箱
 
+装箱是把基本类型转换为对应的内置对象，分为隐式和显式装箱
+拆箱与装箱相反，把对象转变为基本类型的值
 
+## 6.理解值类型和引用类型
 
+## 7.null和undefined的区别
 
+## 8.至少可以说出三种判断JavaScript数据类型的方式，以及他们的优缺点，如何准确的判断数组类型
 
+## 9.可能发生隐式类型转换的场景以及转换原则，应如何避免或巧妙应用
 
+## 10.出现小数精度丢失的原因，JavaScript可以存储的最大数字、最大安全数字，JavaScript处理大数字的方法、避免精度丢失的方法
