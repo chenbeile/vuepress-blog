@@ -132,3 +132,5 @@ var a = new fn;
 console.log(a.user); //blue
 ```
 严格版中默认的this不再是window，而是undefined
+## 12. 手写题
+### 手写深拷贝
